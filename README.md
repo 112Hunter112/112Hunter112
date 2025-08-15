@@ -1,236 +1,520 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%20There!%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32" />
-</div>
+import { useEffect, useState } from "react";
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=I'm+[Your+Name];Full+Stack+Developer+%F0%9F%9A%80;Open+Source+Enthusiast+%F0%9F%8C%9F;Building+Amazing+Things+%E2%9C%A8" alt="Typing SVG" />
-</div>
+const GitHubProfile = () => {
+  const [text, setText] = useState("");
+  const fullText = "Full Stack Developer 🚀\nOpen Source Enthusiast 🌟\nBuilding Amazing Things ✨";
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+  useEffect(() => {
+    if (currentIndex < fullText.length) {
+      const timeout = setTimeout(() => {
+        setText(fullText.slice(0, currentIndex + 1));
+        setCurrentIndex(currentIndex + 1);
+      }, 100);
+      return () => clearTimeout(timeout);
+    }
+  }, [currentIndex, fullText]);
 
-<div align="center">
-  <h2>🚀 About Me</h2>
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40">
-</div>
+  const techCategories = [
+    {
+      title: "💻 Languages",
+      techs: [
+        { name: "JavaScript", color: "text-yellow-400" },
+        { name: "Python", color: "text-blue-400" },
+        { name: "TypeScript", color: "text-blue-300" },
+        { name: "Java", color: "text-orange-400" },
+        { name: "C++", color: "text-blue-500" }
+      ]
+    },
+    {
+      title: "🎨 Frontend",
+      techs: [
+        { name: "React", color: "text-cyan-400" },
+        { name: "Next.js", color: "text-foreground" },
+        { name: "Vue.js", color: "text-green-400" },
+        { name: "Tailwind CSS", color: "text-cyan-300" },
+        { name: "HTML5", color: "text-orange-500" },
+        { name: "CSS3", color: "text-blue-500" }
+      ]
+    },
+    {
+      title: "🔧 Backend & Database",
+      techs: [
+        { name: "Node.js", color: "text-green-500" },
+        { name: "Express.js", color: "text-foreground" },
+        { name: "Django", color: "text-green-600" },
+        { name: "MongoDB", color: "text-green-400" },
+        { name: "PostgreSQL", color: "text-blue-400" },
+        { name: "Redis", color: "text-red-500" }
+      ]
+    },
+    {
+      title: "☁️ Cloud & DevOps",
+      techs: [
+        { name: "AWS", color: "text-orange-400" },
+        { name: "Google Cloud", color: "text-blue-400" },
+        { name: "Docker", color: "text-blue-500" },
+        { name: "Kubernetes", color: "text-blue-600" },
+        { name: "GitHub Actions", color: "text-foreground" }
+      ]
+    }
+  ];
 
-<div align="center">
-  <table>
-    <tr>
-      <td>🔭</td>
-      <td><strong>Currently working on</strong></td>
-      <td>[Your Current Project] 🌟</td>
-    </tr>
-    <tr>
-      <td>🌱</td>
-      <td><strong>Currently learning</strong></td>
-      <td>[Technology you're learning] 📚</td>
-    </tr>
-    <tr>
-      <td>👯</td>
-      <td><strong>Looking to collaborate on</strong></td>
-      <td>Open Source Projects 🤝</td>
-    </tr>
-    <tr>
-      <td>💬</td>
-      <td><strong>Ask me about</strong></td>
-      <td>JavaScript, Python, React ⚡</td>
-    </tr>
-    <tr>
-      <td>📫</td>
-      <td><strong>How to reach me</strong></td>
-      <td>your.email@example.com 📧</td>
-    </tr>
-    <tr>
-      <td>⚡</td>
-      <td><strong>Fun fact</strong></td>
-      <td>[Something interesting about you] 🎉</td>
-    </tr>
-  </table>
-</div>
+  const stats = [
+    { label: "Total Commits", value: "2,847", icon: "📝" },
+    { label: "Repositories", value: "47", icon: "📚" },
+    { label: "Stars Earned", value: "239", icon: "⭐" },
+    { label: "Followers", value: "156", icon: "👥" }
+  ];
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+  const languages = [
+    { name: "JavaScript", percentage: 35, color: "bg-yellow-400" },
+    { name: "TypeScript", percentage: 28, color: "bg-blue-400" },
+    { name: "Python", percentage: 20, color: "bg-green-400" },
+    { name: "Java", percentage: 12, color: "bg-orange-400" },
+    { name: "CSS", percentage: 5, color: "bg-purple-400" }
+  ];
 
-<div align="center">
-  <h2>🛠️ Tech Arsenal</h2>
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="50">
-</div>
+  const projects = [
+    {
+      title: "AI-Powered Task Manager",
+      description: "A smart task management app with AI-driven prioritization and natural language processing for task creation.",
+      tech: ["React", "Node.js", "OpenAI", "MongoDB"],
+      github: "https://github.com",
+      demo: "https://example.com",
+      featured: true
+    },
+    {
+      title: "Real-time Chat Platform",
+      description: "Scalable chat application with real-time messaging, file sharing, and video calls using WebRTC.",
+      tech: ["Next.js", "Socket.io", "PostgreSQL", "Redis"],
+      github: "https://github.com",
+      demo: "https://example.com",
+      featured: true
+    },
+    {
+      title: "E-commerce Analytics Dashboard",
+      description: "Comprehensive analytics platform for e-commerce businesses with real-time data visualization.",
+      tech: ["Vue.js", "Python", "FastAPI", "Docker"],
+      github: "https://github.com",
+      demo: "https://example.com",
+      featured: false
+    },
+    {
+      title: "Blockchain Voting System",
+      description: "Secure and transparent voting system built on blockchain technology for elections and governance.",
+      tech: ["Solidity", "Web3.js", "React", "IPFS"],
+      github: "https://github.com",
+      demo: "https://example.com",
+      featured: false
+    }
+  ];
 
-<div align="center">
+  const socialLinks = [
+    {
+      name: "LinkedIn",
+      icon: "💼",
+      url: "https://linkedin.com/in/your-profile",
+      color: "hover:text-blue-400 hover:shadow-[0_0_20px_hsl(221_83%_53%/0.3)]"
+    },
+    {
+      name: "GitHub", 
+      icon: "🐙",
+      url: "https://github.com/112Hunter112",
+      color: "hover:text-foreground hover:shadow-glow"
+    },
+    {
+      name: "Twitter",
+      icon: "🐦",
+      url: "https://twitter.com/your-handle",
+      color: "hover:text-sky-400 hover:shadow-[0_0_20px_hsl(203_89%_53%/0.3)]"
+    },
+    {
+      name: "Instagram",
+      icon: "📷",
+      url: "https://instagram.com/your-handle", 
+      color: "hover:text-pink-400 hover:shadow-[0_0_20px_hsl(329_100%_71%/0.3)]"
+    },
+    {
+      name: "Gmail",
+      icon: "✉️",
+      url: "mailto:parth.aditya01@gmail.com",
+      color: "hover:text-red-400 hover:shadow-[0_0_20px_hsl(4_90%_58%/0.3)]"
+    },
+    {
+      name: "Portfolio",
+      icon: "🌐",
+      url: "https://your-portfolio.com",
+      color: "hover:text-orange-400 hover:shadow-[0_0_20px_hsl(24_100%_50%/0.3)]"
+    }
+  ];
 
-### 💻 Languages
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-</p>
+  const achievements = [
+    "🏆 GitHub Arctic Code Vault Contributor",
+    "⭐ 200+ Stars across repositories", 
+    "🚀 10+ Open Source Contributions",
+    "💡 Featured Developer of the Month",
+    "🎯 Successfully completed 30+ projects"
+  ];
 
-### 🎨 Frontend
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-</p>
+  return (
+    <main className="min-h-screen">
+      {/* Hero Section */}
+      <section className="min-h-screen flex items-center justify-center px-4 relative overflow-hidden">
+        {/* Animated background elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neon-pink/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-neon-purple/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '4s' }}></div>
+        </div>
 
-### 🔧 Backend & Database
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-</p>
+        <div className="text-center z-10">
+          {/* Animated wave header */}
+          <div className="mb-12 float-animation">
+            <h1 className="text-6xl md:text-8xl font-bold mb-4 neon-text">
+              Hey There! <span className="inline-block animate-bounce">👋</span>
+            </h1>
+          </div>
 
-### ☁️ Cloud & DevOps
-<p>
-  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-</p>
+          {/* Typing animation */}
+          <div className="mb-8">
+            <p className="text-xl md:text-2xl text-muted-foreground mb-4">I'm Hunter</p>
+            <div className="h-32 flex items-center justify-center">
+              <pre className="text-xl md:text-3xl font-mono gradient-text whitespace-pre-wrap text-center">
+                {text}
+                <span className="animate-pulse">|</span>
+              </pre>
+            </div>
+          </div>
 
-### 🔨 Tools & IDEs
-<p>
-  <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-</p>
+          {/* CTA buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <button className="glass-card px-8 py-4 neon-border hover:shadow-neon transition-all duration-300 group">
+              <span className="text-primary font-semibold group-hover:text-foreground transition-colors">
+                View My Work 🚀
+              </span>
+            </button>
+            <button className="glass-card px-8 py-4 border-neon-pink/30 hover:shadow-[0_0_20px_hsl(var(--neon-pink)/0.3)] transition-all duration-300 group">
+              <span className="text-neon-pink font-semibold group-hover:text-foreground transition-colors">
+                Let's Connect 🤝
+              </span>
+            </button>
+          </div>
 
-</div>
+          {/* Scroll indicator */}
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <div className="w-6 h-10 border-2 border-primary/50 rounded-full flex justify-center">
+              <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+      {/* Tech Stack Section */}
+      <section className="py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold mb-4 gradient-text">
+              🛠️ Tech Arsenal
+            </h2>
+            <p className="text-xl text-muted-foreground">Technologies I love working with</p>
+          </div>
 
-<div align="center">
-  <h2>📊 GitHub Analytics</h2>
-  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="50">
-</div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {techCategories.map((category, index) => (
+              <div
+                key={category.title}
+                className="glass-card p-8 hover:shadow-neon transition-all duration-500 group"
+                style={{ animationDelay: `${index * 0.2}s` }}
+              >
+                <h3 className="text-2xl font-bold mb-6 neon-text group-hover:text-primary transition-colors">
+                  {category.title}
+                </h3>
+                <div className="flex flex-wrap gap-3">
+                  {category.techs.map((tech, techIndex) => (
+                    <span
+                      key={tech.name}
+                      className={`glass-card px-4 py-2 text-sm font-medium ${tech.color} hover:scale-110 transition-all duration-300 cursor-pointer hover:shadow-glow`}
+                      style={{ animationDelay: `${(index * 0.2) + (techIndex * 0.1)}s` }}
+                    >
+                      {tech.name}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=112Hunter112&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=112Hunter112&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
-</div>
+      {/* GitHub Stats Section */}
+      <section className="py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold mb-4 gradient-text">
+              📊 GitHub Analytics
+            </h2>
+            <p className="text-xl text-muted-foreground">My coding journey in numbers</p>
+          </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=112Hunter112&theme=radical&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakLabel=c9d1d9" alt="GitHub Streak" />
-</div>
+          {/* Stats Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+            {stats.map((stat, index) => (
+              <div
+                key={stat.label}
+                className="glass-card p-6 text-center hover:shadow-neon transition-all duration-500 group"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <div className="text-4xl mb-2">{stat.icon}</div>
+                <div className="text-3xl font-bold gradient-text mb-2 group-hover:scale-110 transition-transform">
+                  {stat.value}
+                </div>
+                <div className="text-sm text-muted-foreground">{stat.label}</div>
+              </div>
+            ))}
+          </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=112Hunter112&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff6b6b&area=true&hide_border=true" alt="Contribution Graph" />
-</div>
+          {/* Language Stats */}
+          <div className="glass-card p-8">
+            <h3 className="text-2xl font-bold mb-8 text-center neon-text">
+              🔥 Most Used Languages
+            </h3>
+            <div className="space-y-6">
+              {languages.map((lang, index) => (
+                <div key={lang.name} className="group">
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="font-medium">{lang.name}</span>
+                    <span className="text-sm text-muted-foreground">{lang.percentage}%</span>
+                  </div>
+                  <div className="w-full bg-muted/30 rounded-full h-3 overflow-hidden">
+                    <div
+                      className={`h-full ${lang.color} rounded-full transition-all duration-1000 ease-out group-hover:shadow-glow`}
+                      style={{ 
+                        width: `${lang.percentage}%`,
+                        animationDelay: `${index * 0.2}s`
+                      }}
+                    ></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+          {/* Contribution Graph Placeholder */}
+          <div className="mt-12 glass-card p-8">
+            <h3 className="text-2xl font-bold mb-8 text-center neon-text">
+              📈 Contribution Activity
+            </h3>
+            <div className="grid grid-cols-12 gap-1">
+              {Array.from({ length: 365 }, (_, i) => (
+                <div
+                  key={i}
+                  className={`w-3 h-3 rounded-sm transition-all duration-300 hover:scale-150 cursor-pointer ${
+                    Math.random() > 0.7 
+                      ? 'bg-primary' 
+                      : Math.random() > 0.5 
+                      ? 'bg-primary/60' 
+                      : Math.random() > 0.3 
+                      ? 'bg-primary/30' 
+                      : 'bg-muted/30'
+                  }`}
+                  style={{ animationDelay: `${i * 2}ms` }}
+                ></div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
-<div align="center">
-  <h2>🏆 Achievements</h2>
-  <img src="https://github-profile-trophy.vercel.app/?username=112Hunter112&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
-</div>
+      {/* Project Showcase Section */}
+      <section className="py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold mb-4 gradient-text">
+              🌟 Featured Projects
+            </h2>
+            <p className="text-xl text-muted-foreground">Some of my favorite builds</p>
+          </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {projects.map((project, index) => (
+              <div
+                key={project.title}
+                className={`glass-card p-8 hover:shadow-neon transition-all duration-500 group ${
+                  project.featured ? 'md:col-span-2' : ''
+                }`}
+                style={{ animationDelay: `${index * 0.2}s` }}
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <h3 className="text-2xl font-bold neon-text group-hover:text-primary transition-colors">
+                    {project.title}
+                  </h3>
+                  {project.featured && (
+                    <span className="glass-card px-3 py-1 text-sm text-neon-pink border border-neon-pink/30">
+                      Featured
+                    </span>
+                  )}
+                </div>
 
-<div align="center">
-  <h2>🎵 Vibing To</h2>
-  <img src="https://spotify-github-profile.vercel.app/api/spotify-playing" alt="Spotify Now Playing" width="350" />
-</div>
+                <p className="text-muted-foreground mb-6 leading-relaxed">
+                  {project.description}
+                </p>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.tech.map((tech) => (
+                    <span
+                      key={tech}
+                      className="glass-card px-3 py-1 text-sm border border-primary/30 text-primary hover:shadow-glow transition-all duration-300"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
 
-<div align="center">
-  <h2>💡 Developer Wisdom</h2>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" alt="Random Dev Quote" />
-</div>
+                <div className="flex gap-4">
+                  <a
+                    href={project.github}
+                    className="glass-card px-6 py-3 neon-border hover:shadow-neon transition-all duration-300 group/btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="text-primary font-medium group-hover/btn:text-foreground transition-colors">
+                      GitHub 📂
+                    </span>
+                  </a>
+                  <a
+                    href={project.demo}
+                    className="glass-card px-6 py-3 border-neon-pink/30 hover:shadow-[0_0_20px_hsl(var(--neon-pink)/0.3)] transition-all duration-300 group/btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="text-neon-pink font-medium group-hover/btn:text-foreground transition-colors">
+                      Live Demo 🚀
+                    </span>
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+          <div className="text-center mt-12">
+            <button className="glass-card px-8 py-4 neon-border hover:shadow-neon transition-all duration-300 group">
+              <span className="text-primary font-semibold group-hover:text-foreground transition-colors">
+                View All Projects 👀
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
 
-<div align="center">
-  <h2>🌟 Featured Projects</h2>
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="50">
-</div>
+      {/* Contact Section */}
+      <section className="py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          {/* Achievements Section */}
+          <div className="mb-20">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-6xl font-bold mb-4 gradient-text">
+                🏆 Achievements
+              </h2>
+              <p className="text-xl text-muted-foreground">Milestones in my journey</p>
+            </div>
 
-<div align="center">
-  <a href="https://github.com/112Hunter112/project1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=112Hunter112&repo=project1&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="Project 1" />
-  </a>
-  <a href="https://github.com/112Hunter112/project2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=112Hunter112&repo=project2&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="Project 2" />
-  </a>
-</div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {achievements.map((achievement, index) => (
+                <div
+                  key={index}
+                  className="glass-card p-6 hover:shadow-neon transition-all duration-500 group"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <p className="text-center group-hover:scale-105 transition-transform duration-300">
+                    {achievement}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
 
-<div align="center">
-  <a href="https://github.com/112Hunter112/project3">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=112Hunter112&repo=project3&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="Project 3" />
-  </a>
-  <a href="https://github.com/112Hunter112/project4">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=112Hunter112&repo=project4&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="Project 4" />
-  </a>
-</div>
+          {/* Contact Section */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold mb-4 gradient-text">
+              🤝 Let's Connect!
+            </h2>
+            <p className="text-xl text-muted-foreground mb-8">
+              Always excited to collaborate on amazing projects
+            </p>
+          </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-16">
+            {socialLinks.map((link, index) => (
+              <a
+                key={link.name}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`glass-card p-6 text-center transition-all duration-500 group ${link.color}`}
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <div className="text-4xl mb-3 group-hover:scale-125 transition-transform duration-300">
+                  {link.icon}
+                </div>
+                <div className="text-sm font-medium">{link.name}</div>
+              </a>
+            ))}
+          </div>
 
-<div align="center">
-  <h2>🤝 Let's Connect!</h2>
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60">
-</div>
+          {/* Call to Action */}
+          <div className="glass-card p-12 text-center">
+            <h3 className="text-3xl font-bold mb-6 neon-text">
+              Ready to build something amazing together?
+            </h3>
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+              I'm always open to discussing new opportunities, innovative projects, or just having a chat about technology and development.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="mailto:parth.aditya01@gmail.com"
+                className="glass-card px-8 py-4 neon-border hover:shadow-neon transition-all duration-300 group"
+              >
+                <span className="text-primary font-semibold group-hover:text-foreground transition-colors">
+                  Send me an email 📧
+                </span>
+              </a>
+              <a
+                href="https://calendly.com/your-link"
+                className="glass-card px-8 py-4 border-neon-pink/30 hover:shadow-[0_0_20px_hsl(var(--neon-pink)/0.3)] transition-all duration-300 group"
+              >
+                <span className="text-neon-pink font-semibold group-hover:text-foreground transition-colors">
+                  Schedule a call 📅
+                </span>
+              </a>
+            </div>
+          </div>
 
-<div align="center">
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&animation=pulse" alt="LinkedIn" />
-  </a>
-  <a href="https://twitter.com/your-handle">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://instagram.com/your-handle">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="mailto:parth.aditya01@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://your-portfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://discord.com/users/your-id">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-</div>
+          {/* Profile Views Counter */}
+          <div className="text-center mt-12">
+            <div className="glass-card inline-block px-6 py-3">
+              <span className="text-sm text-muted-foreground">Profile Views: </span>
+              <span className="font-bold gradient-text text-lg">12,847</span>
+              <span className="text-sm text-muted-foreground ml-2">• Followers: </span>
+              <span className="font-bold gradient-text text-lg">156</span>
+            </div>
+          </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
+          {/* Footer */}
+          <div className="text-center mt-16 pt-8 border-t border-white/10">
+            <p className="text-muted-foreground mb-4">
+              💫 Thanks for visiting! Have a great day! 🌟
+            </p>
+            <div className="text-6xl">
+              <span className="inline-block hover:scale-125 transition-transform duration-300 cursor-pointer">
+                🚀
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+};
 
-<div align="center">
-  <h2>👀 Profile Views</h2>
-  <img src="https://komarev.com/ghpvc/?username=112Hunter112&label=Visitors&color=58a6ff&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/112Hunter112?label=Followers&style=for-the-badge&color=58a6ff" alt="Followers" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%">
-</div>
-
-<div align="center">
-  <h3>💫 Thanks for visiting! Have a great day! 🌟</h3>
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
-</div>
+export default GitHubProfile;
