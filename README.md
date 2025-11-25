@@ -81,6 +81,14 @@ PostgreSQL, MongoDB, Redis, MySQL, DynamoDB
 ### Development Tools
 Git, GitHub, GitLab, Jenkins, CircleCI, Jest, Webpack
 
+## GitHub Analytics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=112Hunter112&show_icons=true&theme=default&include_all_commits=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=112Hunter112&layout=compact&langs_count=8&theme=default)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=112Hunter112&theme=default)
+
 ## Featured Projects
 
 ### RAG (Retrieval-Augmented Generation) System for PDF Processing
@@ -117,41 +125,14 @@ Git, GitHub, GitLab, Jenkins, CircleCI, Jest, Webpack
 - Integrated AI-driven insights reducing task completion time by 35%
 - Deployed on AWS with 99.9% uptime SLA
 
-## Professional Development
-
-### Current Focus
-- **Cloud Native Development** - Building serverless architectures with AWS Lambda and Kubernetes
-- **AI/ML Integration** - Implementing machine learning models in production environments
-- **Blockchain Technology** - Developing Web3 applications and smart contracts
-- **System Design** - Architecting scalable distributed systems
-
-### Certifications & Learning
-- AWS Certified Solutions Architect (In Progress)
-- Google Cloud Professional Developer (Planned 2025)
-- Continuous learning through Coursera, Udemy, and technical documentation
-
-## Open Source Contributions
-
-- Active maintainer contributing to 5+ open source projects
-- Regular participation in code reviews and issue resolution
-- Improved documentation for 10+ repositories
-- Resolved 50+ issues across various projects
-
-## Technical Writing & Knowledge Sharing
-
-- Regular contributor to technical blogs and documentation
-- Mentor for junior developers and coding bootcamp students
-- Speaker at local tech meetups and webinars
-- Active participant in Stack Overflow (Top 10% contributor)
-
 ## Professional Interests
 
 I'm interested in discussing new opportunities, innovative projects, and technical challenges in the following areas:
 
-- Full-time positions in software engineering
-- Consulting opportunities for technical architecture
-- Open source collaboration on impactful projects
-- Technical discussions and knowledge exchange
+- Software engineering internships and full-time positions
+- Machine learning and AI applications
+- Cloud architecture and distributed systems
+- Algorithmic problem solving and competitive programming
 
 ---
 
