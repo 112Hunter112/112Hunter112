@@ -1,151 +1,158 @@
 # Hunter | Full Stack Developer
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Full+Stack+Software+Engineer;Cloud+Architecture+Specialist;Open+Source+Contributor" alt="Professional Title" />
-</div>
-
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/your-profile)
-  [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail)](mailto:parth.aditya01@gmail.com)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=flat-square&logo=google-chrome)](https://your-portfolio.com)
-  [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/112Hunter112)
-  
-</div>
-
-## 👨‍💻 Professional Summary
+## Professional Summary
 
 Experienced Full Stack Developer with a proven track record of delivering scalable, high-performance applications. Specialized in modern web technologies with expertise in cloud architecture, AI integration, and enterprise solutions. Passionate about writing clean, maintainable code and driving technical innovation.
 
-### 🎯 Core Competencies
+## Contact Information
 
-- **Frontend Development:** React, Next.js, TypeScript, Vue.js, Tailwind CSS
-- **Backend Development:** Node.js, Python, Express.js, Django, FastAPI
-- **Cloud & DevOps:** AWS, Google Cloud, Docker, Kubernetes, CI/CD
-- **Database Management:** PostgreSQL, MongoDB, Redis, MySQL
-- **Best Practices:** Test-Driven Development, Agile Methodologies, Code Review, Documentation
+- **LinkedIn:** linkedin.com/in/your-profile
+- **Email:** parth.aditya01@gmail.com
+- **Portfolio:** your-portfolio.com
+- **GitHub:** github.com/112Hunter112
 
-## 💼 Professional Experience Highlights
+## Education
 
+**University of Wisconsin-Madison**  
+Bachelor of Science in Mathematics & Computer Science  
+Expected Graduation: December 2026  
+GPA: 3.6/4.0
 
-### Technical Impact
-- Reduced application load times by **40%** through optimization strategies
-- Implemented CI/CD pipelines resulting in **20%** faster deployment cycles
-- Architected microservices handling **10,000+** concurrent users
-- Mentored **5+** junior developers in best practices and modern technologies
+## Core Competencies
 
-## 🛠️ Technical Stack
+### Frontend Development
+React, Next.js, TypeScript, Vue.js, Tailwind CSS
 
-### Languages & Frameworks
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+### Backend Development
+Node.js, Python, Express.js, Django, FastAPI
+
+### Cloud & DevOps
+AWS, Google Cloud, Docker, Kubernetes, CI/CD
+
+### Database Management
+PostgreSQL, MongoDB, Redis, MySQL
+
+### Best Practices
+Test-Driven Development, Agile Methodologies, Code Review, Documentation
+
+## Professional Experience
+
+### Software Engineering Intern | Tech Mahindra
+**Duration:** Summer 2024
+
+- Developed ML/NLP systems for natural language processing applications
+- Contributed to Project Indus, working on machine learning model integration and optimization
+- Collaborated with cross-functional teams to implement AI-driven solutions
+- Gained hands-on experience with production ML pipelines and deployment
+
+### Software Engineering Intern | Mediterranean Shipping Company
+**Duration:** Summer 2023
+
+- Developed logistics management systems to optimize shipping operations
+- Built backend services for tracking and managing cargo workflows
+- Implemented database solutions for handling large-scale operational data
+- Worked on improving system efficiency and reliability for global logistics operations
+
+### Peer Mentor | University of Wisconsin-Madison
+**Course:** CS400 - Programming III  
+**Duration:** 2024 - Present
+
+- Mentor students in data structures, algorithms, and object-oriented programming
+- Conduct office hours and review sessions to support student learning
+- Assist with debugging and code review for course assignments
+
+## Technical Stack
+
+### Languages
+JavaScript, TypeScript, Python, Java, C++
 
 ### Frontend Technologies
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+React, Next.js, Vue.js, Tailwind CSS, HTML5, CSS3
 
-### Backend & Cloud
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+### Backend Technologies
+Node.js, Express.js, Django, FastAPI, Spring Boot
+
+### Cloud & Infrastructure
+AWS (EC2, S3, Lambda, RDS), Google Cloud Platform, Docker, Kubernetes
 
 ### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
+PostgreSQL, MongoDB, Redis, MySQL, DynamoDB
 
-## 📊 GitHub Analytics
+### Development Tools
+Git, GitHub, GitLab, Jenkins, CircleCI, Jest, Webpack
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=112Hunter112&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=112Hunter112&layout=compact&langs_count=8&theme=dark&hide_border=true"/>
-</div>
+## Featured Projects
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=112Hunter112&theme=dark&hide_border=true" />
-</div>
+### RAG (Retrieval-Augmented Generation) System for PDF Processing
+**Technologies:** Python, FAISS, Ollama, LangChain, PDF Processing Libraries
 
-## 🚀 Featured Projects
+**Key Features:**
+- Built from scratch to understand RAG architecture and implementation details
+- Implemented PDF parsing and text extraction pipeline
+- Created vector embeddings using FAISS for efficient similarity search
+- Integrated Ollama for local LLM inference and document question-answering
+- Developed end-to-end retrieval and generation pipeline for document analysis
+
+---
 
 ### Multimodal Wafer Defect Detection System
-**Technologies:** Python, TensorFlow/PyTorch, Computer Vision, Deep Learning  
+**Technologies:** Python, TensorFlow/PyTorch, Computer Vision, Deep Learning
+
 **Key Features:**
 - Developed multimodal AI system for semiconductor defect detection
 - Achieved 95%+ accuracy in identifying wafer manufacturing defects
 - Reduced quality inspection time by 70% through automation
 - Implemented real-time detection pipeline for production environments
 
-<div align="center">
-  <a href="https://github.com/Anish-C/Multimodal_Wafer_Defect_Detection">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anish-C&repo=Multimodal_Wafer_Defect_Detection&theme=dark&hide_border=true" />
-  </a>
-</div>
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github)](https://github.com/Anish-C/Multimodal_Wafer_Defect_Detection)
-[![Stars](https://img.shields.io/github/stars/Anish-C/Multimodal_Wafer_Defect_Detection?style=flat-square)](https://github.com/Anish-C/Multimodal_Wafer_Defect_Detection)
-[![Forks](https://img.shields.io/github/forks/Anish-C/Multimodal_Wafer_Defect_Detection?style=flat-square)](https://github.com/Anish-C/Multimodal_Wafer_Defect_Detection)
+**Repository:** github.com/Anish-C/Multimodal_Wafer_Defect_Detection
 
 ---
 
 ### AI-Powered Task Management System
-**Technologies:** React, Node.js, OpenAI API, MongoDB, Docker  
+**Technologies:** React, Node.js, OpenAI API, MongoDB, Docker
+
 **Key Features:**
 - Implemented NLP for intelligent task prioritization and categorization
 - Built real-time collaboration features supporting 100+ concurrent users
 - Integrated AI-driven insights reducing task completion time by 35%
 - Deployed on AWS with 99.9% uptime SLA
 
-
-
-
-
-
-## 📈 Professional Development
+## Professional Development
 
 ### Current Focus
-- 🔍 **Cloud Native Development** - Building serverless architectures with AWS Lambda and Kubernetes
-- 🤖 **AI/ML Integration** - Implementing machine learning models in production environments
-- 🔗 **Blockchain Technology** - Developing Web3 applications and smart contracts
-- 📊 **System Design** - Architecting scalable distributed systems
+- **Cloud Native Development** - Building serverless architectures with AWS Lambda and Kubernetes
+- **AI/ML Integration** - Implementing machine learning models in production environments
+- **Blockchain Technology** - Developing Web3 applications and smart contracts
+- **System Design** - Architecting scalable distributed systems
 
 ### Certifications & Learning
 - AWS Certified Solutions Architect (In Progress)
 - Google Cloud Professional Developer (Planned 2025)
 - Continuous learning through Coursera, Udemy, and technical documentation
 
-## 🤝 Open Source Contributions
+## Open Source Contributions
 
-- **Active Maintainer:** Contributing to 5+ open source projects
-- **Community Engagement:** Regular participation in code reviews and issue resolution
-- **Documentation:** Improved documentation for 10+ repositories
-- **Bug Fixes:** Resolved 50+ issues across various projects
+- Active maintainer contributing to 5+ open source projects
+- Regular participation in code reviews and issue resolution
+- Improved documentation for 10+ repositories
+- Resolved 50+ issues across various projects
 
-## 💡 Technical Writing & Knowledge Sharing
+## Technical Writing & Knowledge Sharing
 
 - Regular contributor to technical blogs and documentation
 - Mentor for junior developers and coding bootcamp students
 - Speaker at local tech meetups and webinars
 - Active participant in Stack Overflow (Top 10% contributor)
 
-## 📫 Let's Connect
+## Professional Interests
 
-I'm always interested in discussing new opportunities, innovative projects, and technical challenges. Feel free to reach out for:
+I'm interested in discussing new opportunities, innovative projects, and technical challenges in the following areas:
 
-- **Full-time positions** in software engineering
-- **Consulting opportunities** for technical architecture
-- **Open source collaboration** on impactful projects
-- **Technical discussions** and knowledge exchange
-
+- Full-time positions in software engineering
+- Consulting opportunities for technical architecture
+- Open source collaboration on impactful projects
+- Technical discussions and knowledge exchange
 
 ---
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=112Hunter112&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
-  
-</div>
+© 2025 Hunter. All rights reserved.
