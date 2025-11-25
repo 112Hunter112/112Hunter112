@@ -1,139 +1,162 @@
-# Hunter | Full Stack Developer
+# Parth Aditya | Software Engineer
 
-## Professional Summary
+## About Me
 
-Experienced Full Stack Developer with a proven track record of delivering scalable, high-performance applications. Specialized in modern web technologies with expertise in cloud architecture, AI integration, and enterprise solutions. Passionate about writing clean, maintainable code and driving technical innovation.
+Software Engineering student at University of Wisconsin-Madison specializing in Machine Learning and Backend Systems. Experienced in building production ML/NLP pipelines, distributed systems, and high-performance applications. Passionate about deploying intelligent systems at scale with robust backend infrastructure.
 
 ## Contact Information
 
-- **LinkedIn:** linkedin.com/in/your-profile
-- **Email:** parth.aditya01@gmail.com
-- **Portfolio:** your-portfolio.com
-- **GitHub:** github.com/112Hunter112
+- **Email:** Parth.aditya01@gmail.com
+- **Phone:** (608) 690-1247
+- **LinkedIn:** https://www.linkedin.com/in/parth-aditya-2a557a1b9/
+- **GitHub:** https://github.com/112Hunter112
 
 ## Education
 
-**University of Wisconsin-Madison**  
-Bachelor of Science in Mathematics & Computer Science  
-Expected Graduation: December 2026  
-GPA: 3.6/4.0
+**University of Wisconsin-Madison** | Madison, WI  
+Bachelor of Mathematics & Computer Science (Honors)  
+*September 2023 – December 2026*  
+**GPA:** 3.7/4.0
 
-## Core Competencies
+**Relevant Coursework:** Machine Learning, Data Structures, Database Systems, Operating Systems
 
-### Frontend Development
-React, Next.js, TypeScript, Vue.js, Tailwind CSS
+## Technical Skills
 
-### Backend Development
-Node.js, Python, Express.js, Django, FastAPI
+### ML / NLP
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 
-### Cloud & DevOps
-AWS, Google Cloud, Docker, Kubernetes, CI/CD
+**Techniques:** NLP tokenization, NER, text classification, sequence labeling, feature engineering
 
-### Database Management
-PostgreSQL, MongoDB, Redis, MySQL
+### Systems & Infrastructure
+![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### Best Practices
-Test-Driven Development, Agile Methodologies, Code Review, Documentation
+**AWS Services:** S3, EC2, SageMaker
+
+### Engineering
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Backend & Databases
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white)
+
+### Monitoring & MLOps
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI/CD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+**Practices:** A/B testing, model versioning, CI/CD, DVC, ELK Stack
 
 ## Professional Experience
 
-### Software Engineering Intern | Tech Mahindra
-**Duration:** Summer 2024
+### Machine Learning / NLP Engineering Intern Co-Op | Tech Mahindra
+*May 2025 – December 2025 | India / Germany*
 
-- Developed ML/NLP systems for natural language processing applications
-- Contributed to Project Indus, working on machine learning model integration and optimization
-- Collaborated with cross-functional teams to implement AI-driven solutions
-- Gained hands-on experience with production ML pipelines and deployment
+- Built production NLP pipelines (PyTorch + Hugging Face) for AML/KYC document classification and entity extraction, processing 1M+ documents/month with 95%+ classification accuracy in offline tests
+- Designed Spark-based ETL and Dockerized microservices in Python and Java to standardize document ingestion, reducing cloud spend by 15% ($45K+/yr) via batch optimization and instance right-sizing
+- Implemented multilingual inference stack with React frontend, Spring Boot backend, Go inference service, and Redis caching, enabling onboarding for 2M+ previously excluded customers
+- Deployed models with MLflow on Kubernetes, achieving 800+ RPS capacity and establishing automated retraining triggers for drift detection
+- Performed large-scale feature engineering on 10M+ transactions using Pandas and Spark MLlib, improving fraud model precision and reducing false positives
+- Implemented observability and alerting for pipelines and inference using AWS Prometheus and CloudWatch
 
-### Software Engineering Intern | Mediterranean Shipping Company
-**Duration:** Summer 2023
+### Software Developer Intern | Mediterranean Shipping Company
+*May 2024 – October 2024 | Limassol, Cyprus*
 
-- Developed logistics management systems to optimize shipping operations
-- Built backend services for tracking and managing cargo workflows
-- Implemented database solutions for handling large-scale operational data
-- Worked on improving system efficiency and reliability for global logistics operations
+- Built fraud and anomaly detection pipelines using scikit-learn and XGBoost, deploying models to SageMaker for daily scoring
+- Developed automated ETL pipelines ingesting 10K+ records/day using Python + OracleSQL with schema validation, alerting, and idempotent job design
+- Optimized REST API performance for 50K+ daily requests via SQL tuning (hash joins, partition pruning), caching, and indexing, reducing latency by 14%
+- Automated regulatory reporting with Python and Postgres, implemented dashboards and alerts for AML monitoring
+- Enabled rapid release cycles (15+ monthly) using GitLab CI/CD, CloudWatch alerts, canary deploys, and automated rollbacks
 
 ### Peer Mentor | University of Wisconsin-Madison
-**Course:** CS400 - Programming III  
-**Duration:** 2024 - Present
+*January 2025 – May 2025 | Madison, WI*  
+**Course:** CS100: Programming III
 
-- Mentor students in data structures, algorithms, and object-oriented programming
-- Conduct office hours and review sessions to support student learning
-- Assist with debugging and code review for course assignments
+- Mentored 400+ students, improving pass rates for at-risk students to 85% and achieving 94% satisfaction
+- Designed pair-programming sessions, visual algorithm walkthroughs, and reusable teaching materials adopted department-wide
 
-## Technical Stack
+## Research
 
-### Languages
-JavaScript, TypeScript, Python, Java, C++
+### Independent Research — Theoretical Neural ODEs (Draft)
+*May 2025 – Present | University of Wisconsin-Madison / Independent Project*
 
-### Frontend Technologies
-React, Next.js, Vue.js, Tailwind CSS, HTML5, CSS3
+- Studying foundational properties of Neural ODEs: existence/uniqueness of flows and stability to parameter perturbations
+- Re-derived adjoint sensitivity under weaker smoothness assumptions and compared discrete vs continuous schemes
+- Running experiments in PyTorch on solver choice, stiffness, and step-size adaptation to validate theoretical observations
+- Draft paper and repository link pending
 
-### Backend Technologies
-Node.js, Express.js, Django, FastAPI, Spring Boot
+## Projects
 
-### Cloud & Infrastructure
-AWS (EC2, S3, Lambda, RDS), Google Cloud Platform, Docker, Kubernetes
+### ELO-Ranked Real-Time Coding Duel Platform
+[View on GitHub](#)
 
-### Databases
-PostgreSQL, MongoDB, Redis, MySQL, DynamoDB
+**Technologies:** Go, WebSocket, Redis, Docker, React, MinHash
 
-### Development Tools
-Git, GitHub, GitLab, Jenkins, CircleCI, Jest, Webpack
+- Built a full-stack, real-time competitive coding platform with Go backend, WebSocket sessions, and Redis sharding, achieving sub-100ms match latency
+- Improved platform integrity by integrating MinHash plagiarism detection and Docker sandboxing (256MB, 2s limits), reducing cheating incidents
+- Streamed ML-derived opponent metrics to the frontend for real-time visualization and engagement
+- Designed scalable architecture to handle concurrent matches with low-latency requirements
 
-## GitHub Analytics
+### FileToGraph — Intelligent Financial Data Visualization
+[View on GitHub](#)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=112Hunter112&show_icons=true&theme=default&include_all_commits=true&count_private=true)
+**Technologies:** Spring Boot, React, FAISS, RAG, LLM integration, Kafka
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=112Hunter112&layout=compact&langs_count=8&theme=default)
+- Building a Spring Boot backend and React frontend to ingest large financial datasets and provide sub-200ms query-driven insights
+- Implemented FAISS-based vector search and RAG-style summarization to support LLM-driven query workflows and compliance reporting
+- Integrated API ingestion hooks, WebSocket + Kafka streaming for real-time collaboration, and schema validation for data integrity
+- Enables intelligent exploration of complex financial data through natural language queries
+
+### Multimodal Semiconductor Defect Detection
+[View on GitHub](https://github.com/Anish-C/Multimodal_Wafer_Defect_Detection)
+
+**Technologies:** PyTorch, CrossViT, MLflow, Kubeflow
+
+- Led PyTorch CrossViT implementation for multimodal wafer defect detection
+- Conducted A/B testing and automated retraining via MLflow and Kubeflow
+- Improved anomaly precision by 15% in development experiments
+- Built end-to-end ML pipeline from data ingestion to model deployment
+
+## GitHub Stats
+
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=112Hunter112&theme=default)
 
-## Featured Projects
+## What I'm Working On
 
-### RAG (Retrieval-Augmented Generation) System for PDF Processing
-**Technologies:** Python, FAISS, Ollama, LangChain, PDF Processing Libraries
-
-**Key Features:**
-- Built from scratch to understand RAG architecture and implementation details
-- Implemented PDF parsing and text extraction pipeline
-- Created vector embeddings using FAISS for efficient similarity search
-- Integrated Ollama for local LLM inference and document question-answering
-- Developed end-to-end retrieval and generation pipeline for document analysis
+- Building production ML/NLP systems for document understanding and entity extraction
+- Designing scalable backend architectures with Go microservices, Kafka, and Redis
+- Researching theoretical foundations of Neural ODEs and continuous-depth models
+- Exploring MLOps best practices: model versioning, A/B testing, and automated retraining
+- Developing high-performance distributed systems and real-time data processing pipelines
+- Contributing to open-source projects and competitive programming
 
 ---
 
-### Multimodal Wafer Defect Detection System
-**Technologies:** Python, TensorFlow/PyTorch, Computer Vision, Deep Learning
-
-**Key Features:**
-- Developed multimodal AI system for semiconductor defect detection
-- Achieved 95%+ accuracy in identifying wafer manufacturing defects
-- Reduced quality inspection time by 70% through automation
-- Implemented real-time detection pipeline for production environments
-
-**Repository:** github.com/Anish-C/Multimodal_Wafer_Defect_Detection
-
----
-
-### AI-Powered Task Management System
-**Technologies:** React, Node.js, OpenAI API, MongoDB, Docker
-
-**Key Features:**
-- Implemented NLP for intelligent task prioritization and categorization
-- Built real-time collaboration features supporting 100+ concurrent users
-- Integrated AI-driven insights reducing task completion time by 35%
-- Deployed on AWS with 99.9% uptime SLA
-
-## Professional Interests
-
-I'm interested in discussing new opportunities, innovative projects, and technical challenges in the following areas:
-
-- Software engineering internships and full-time positions
-- Machine learning and AI applications
-- Cloud architecture and distributed systems
-- Algorithmic problem solving and competitive programming
-
----
-
-© 2025 Hunter. All rights reserved.
+*Open to Machine Learning Engineering, Backend Engineering, and Software Engineering internships starting Summer 2026*
