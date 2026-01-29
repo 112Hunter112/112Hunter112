@@ -103,7 +103,7 @@ Bachelor of Mathematics & Computer Science (Honors)
 
 ## Research
 
-### Independent Research — Theoretical Neural ODEs (Draft)
+### Independent Study — Theoretical Neural ODEs (Draft)
 *May 2025 – Present | University of Wisconsin-Madison / Independent Project*
 
 - Studying foundational properties of Neural ODEs: existence/uniqueness of flows and stability to parameter perturbations
