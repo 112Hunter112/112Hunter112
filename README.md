@@ -78,12 +78,12 @@ Bachelor of Mathematics & Computer Science (Honors)
 ### Machine Learning / NLP Engineering Intern Co-Op | Tech Mahindra
 *May 2025 – December 2025 | India / Germany*
 
-- Built production NLP pipelines (PyTorch + Hugging Face) for AML/KYC document classification and entity extraction, processing 1M+ documents/month with 95%+ classification accuracy in offline tests
-- Designed Spark-based ETL and Dockerized microservices in Python and Java to standardize document ingestion, reducing cloud spend by 15% ($45K+/yr) via batch optimization and instance right-sizing
-- Implemented multilingual inference stack with React frontend, Spring Boot backend, Go inference service, and Redis caching, enabling onboarding for 2M+ previously excluded customers
-- Deployed models with MLflow on Kubernetes, achieving 800+ RPS capacity and establishing automated retraining triggers for drift detection
-- Performed large-scale feature engineering on 10M+ transactions using Pandas and Spark MLlib, improving fraud model precision and reducing false positives
-- Implemented observability and alerting for pipelines and inference using AWS Prometheus and CloudWatch
+- Built 3 Java/Spring Boot microservices for a distributed payment platform with idempotency keys, retry logic, and
+optimistic locking to ensure exactly-once transaction processing under concurrent writes.
+- Designed a Go API gateway with Redis caching, achieving a 92% cache hit rate and sub-300ms p95 response time
+across 6 downstream services.
+- Hardened Kafka consumer pipeline with Dead Letter Queues and schema validation, preventing consumer lag from
+malformed payment events.
 
 ### Software Developer Intern | Mediterranean Shipping Company
 *May 2024 – October 2024 | Limassol, Cyprus*
@@ -94,12 +94,6 @@ Bachelor of Mathematics & Computer Science (Honors)
 - Automated regulatory reporting with Python and Postgres, implemented dashboards and alerts for AML monitoring
 - Enabled rapid release cycles (15+ monthly) using GitLab CI/CD, CloudWatch alerts, canary deploys, and automated rollbacks
 
-### Peer Mentor | University of Wisconsin-Madison
-*January 2025 – May 2025 | Madison, WI*  
-**Course:** CS100: Programming III
-
-- Mentored 400+ students, improving pass rates for at-risk students to 85% and achieving 94% satisfaction
-- Designed pair-programming sessions, visual algorithm walkthroughs, and reusable teaching materials adopted department-wide
 
 ## Research
 
