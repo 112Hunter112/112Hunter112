@@ -152,9 +152,7 @@ Contact:         parth.aditya01@gmail.com
    .github/workflows/snake.yml  and run it once
    (Actions tab -> "Generate Snake" -> Run workflow)
 ============================================================ -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/112Hunter112/112Hunter112/output/snake.svg" alt="Contribution snake" width="100%" />
-</p>
+
 
 ---
 
