@@ -1,156 +1,161 @@
-# Parth Aditya | Software Engineer
-
-## About Me
-
-Software Engineering student at University of Wisconsin-Madison specializing in Machine Learning and Backend Systems. Experienced in building production ML/NLP pipelines, distributed systems, and high-performance applications. Passionate about deploying intelligent systems at scale with robust backend infrastructure.
-
-## Contact Information
-
-- **Email:** Parth.aditya01@gmail.com
-- **Phone:** (608) 690-1247
-- **LinkedIn:** https://www.linkedin.com/in/parth-aditya-2a557a1b9/
-- **GitHub:** https://github.com/112Hunter112
-
-## Education
-
-**University of Wisconsin-Madison** | Madison, WI  
-Bachelor of Mathematics & Computer Science (Honors)  
-*September 2023 – December 2026*  
-**GPA:** 3.7/4.0
-
-**Relevant Coursework:** Machine Learning, Data Structures, Database Systems, Operating Systems
-
-## Technical Skills
-
-### ML / NLP
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-
-**Techniques:** NLP tokenization, NER, text classification, sequence labeling, feature engineering
-
-### Systems & Infrastructure
-![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-**AWS Services:** S3, EC2, SageMaker
-
-### Engineering
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### Backend & Databases
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white)
-
-### Monitoring & MLOps
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI/CD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-**Practices:** A/B testing, model versioning, CI/CD, DVC, ELK Stack
-
-## Professional Experience
-
-### Machine Learning / NLP Engineering Intern Co-Op | Tech Mahindra
-*May 2025 – December 2025 | India / Germany*
-
-- Built 3 Java/Spring Boot microservices for a distributed payment platform with idempotency keys, retry logic, and
-optimistic locking to ensure exactly-once transaction processing under concurrent writes.
-- Designed a Go API gateway with Redis caching, achieving a 92% cache hit rate and sub-300ms p95 response time
-across 6 downstream services.
-- Hardened Kafka consumer pipeline with Dead Letter Queues and schema validation, preventing consumer lag from
-malformed payment events.
-
-### Software Developer Intern | Mediterranean Shipping Company
-*May 2024 – October 2024 | Limassol, Cyprus*
-
-- Built fraud and anomaly detection pipelines using scikit-learn and XGBoost, deploying models to SageMaker for daily scoring
-- Developed automated ETL pipelines ingesting 10K+ records/day using Python + OracleSQL with schema validation, alerting, and idempotent job design
-- Optimized REST API performance for 50K+ daily requests via SQL tuning (hash joins, partition pruning), caching, and indexing, reducing latency by 14%
-- Automated regulatory reporting with Python and Postgres, implemented dashboards and alerts for AML monitoring
-- Enabled rapid release cycles (15+ monthly) using GitLab CI/CD, CloudWatch alerts, canary deploys, and automated rollbacks
+<!-- ============================================================
+   HERO: add  hero.svg  to your repo at  assets/hero.svg
+   (self-hosted = always renders, no third-party downtime)
+============================================================ -->
 
 
-## Research
+<h1 align="center">Parth Aditya</h1>
 
-### Independent Study — Theoretical Neural ODEs (Draft)
-*May 2025 – Present | University of Wisconsin-Madison / Independent Project*
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&pause=1200&center=true&vCenter=true&color=22D3EE&width=560&lines=Software+Development+Engineer;Backend+%26+Distributed+Systems;Math+%26+CS+%40+UW%E2%80%93Madison" alt="Roles" />
+</p>
 
-- Studying foundational properties of Neural ODEs: existence/uniqueness of flows and stability to parameter perturbations
-- Re-derived adjoint sensitivity under weaker smoothness assumptions and compared discrete vs continuous schemes
-- Running experiments in PyTorch on solver choice, stiffness, and step-size adaptation to validate theoretical observations
-- Draft paper and repository link pending
-
-## Projects
-
-### ELO-Ranked Real-Time Coding Duel Platform
-[View on GitHub](#)
-
-**Technologies:** Go, WebSocket, Redis, Docker, React, MinHash
-
-- Built a full-stack, real-time competitive coding platform with Go backend, WebSocket sessions, and Redis sharding, achieving sub-100ms match latency
-- Improved platform integrity by integrating MinHash plagiarism detection and Docker sandboxing (256MB, 2s limits), reducing cheating incidents
-- Streamed ML-derived opponent metrics to the frontend for real-time visualization and engagement
-- Designed scalable architecture to handle concurrent matches with low-latency requirements
-
-### FileToGraph — Intelligent Financial Data Visualization
-[View on GitHub](#)
-
-**Technologies:** Spring Boot, React, FAISS, RAG, LLM integration, Kafka
-
-- Building a Spring Boot backend and React frontend to ingest large financial datasets and provide sub-200ms query-driven insights
-- Implemented FAISS-based vector search and RAG-style summarization to support LLM-driven query workflows and compliance reporting
-- Integrated API ingestion hooks, WebSocket + Kafka streaming for real-time collaboration, and schema validation for data integrity
-- Enables intelligent exploration of complex financial data through natural language queries
-
-### Multimodal Semiconductor Defect Detection
-[View on GitHub](https://github.com/Anish-C/Multimodal_Wafer_Defect_Detection)
-
-**Technologies:** PyTorch, CrossViT, MLflow, Kubeflow
-
-- Led PyTorch CrossViT implementation for multimodal wafer defect detection
-- Conducted A/B testing and automated retraining via MLflow and Kubeflow
-- Improved anomaly precision by 15% in development experiments
-- Built end-to-end ML pipeline from data ingestion to model deployment
-
-## GitHub Stats
-
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=112Hunter112&theme=default)
-
-## What I'm Working On
-
-- Building production ML/NLP systems for document understanding and entity extraction
-- Designing scalable backend architectures with Go microservices, Kafka, and Redis
-- Researching theoretical foundations of Neural ODEs and continuous-depth models
-- Exploring MLOps best practices: model versioning, A/B testing, and automated retraining
-- Developing high-performance distributed systems and real-time data processing pipelines
-- Contributing to open-source projects and competitive programming
+<p align="center">
+  <a href="https://www.linkedin.com/in/parth-aditya-2a557a1b9/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:parth.aditya01@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/112Hunter112">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=112Hunter112&style=for-the-badge&color=22D3EE&label=PROFILE+VIEWS" alt="Profile views" />
+</p>
 
 ---
 
-*Open to Machine Learning Engineering, Backend Engineering, and Software Engineering internships starting Summer 2026*
+## About
+
+I'm a Mathematics & Computer Science student at the University of Wisconsin–Madison, focused on backend and distributed systems — production-grade services, full-stack features, and high-performance, low-latency infrastructure. My work ranges from payment microservices and API gateways to GPU systems programming at the kernel level. I'm currently a Software Development Engineer Intern at Amazon Ads.
+
+```yaml
+Role:            Software Development Engineer Intern @ Amazon Ads
+Education:       B.S. Mathematics & Computer Science, UW–Madison
+GPA / Grad:      3.6  ·  May 2027
+Core stack:      Go · Java · TypeScript · AWS
+Focus:           Backend & distributed systems, low-latency services
+Contact:         parth.aditya01@gmail.com
+```
+
+---
+
+## Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" />
+  <img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redshift-8C4FFF?style=for-the-badge&logo=amazonredshift&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+<p align="center"><sub><b>AWS:</b> EC2 · S3 · DynamoDB · Redshift · EMR · Kinesis · Lambda · Step Functions · SQS · CloudWatch</sub></p>
+
+---
+
+## Experience
+
+> **Software Development Engineer Intern** · **Amazon** (Amazon Ads) — *Boulder, CO* · `Jun 2026 – Sep 2026`
+> - Building a full-stack feature in Amazon Ads' campaign-planning web app (TypeScript, React, Express) enabling teams to launch **Prime Video Live Events** campaigns (NBA, NFL, NHL) for **40+ advertisers** across **11 marketplaces**, replacing a manual Excel/email/ticketing workflow.
+> - Designing guided campaign-creation flows in React/TypeScript and a templated approval mechanism dispatching creative-asset requests to an external vendor, surfacing live approval status in the UI.
+> - Extending REST services and a job-orchestration pipeline (**Step Functions · SQS · Lambda**) to idempotently publish campaigns to Amazon DSP, backed by **DynamoDB** and **S3**, with Redshift/CloudWatch reporting and unit & integration tests.
+
+> **Software Engineering Intern** · **Tech Mahindra** — *New Delhi, India* · `May 2025 – Sep 2025`
+> - Built 3 **Java/Spring Boot** microservices for a distributed payment platform with idempotency keys, retry logic, and optimistic locking for **exactly-once** transaction processing under concurrent writes.
+> - Designed a **Go** API gateway with Redis caching — **92% cache hit rate**, **sub-300ms p95** across 6 downstream services.
+> - Hardened a **Kafka** consumer pipeline with Dead Letter Queues and schema validation, preventing consumer lag from malformed payment events.
+
+> **Software Developer Intern** · **Mediterranean Shipping Company** — *Limassol, Cyprus* · `May 2022 – Sep 2022`
+> - Engineered Linux pipelines streaming telemetry from **500+ vessel IoT sensors** into AWS S3; optimized **25+ REST APIs** via OracleSQL tuning (**–14% p95 latency**, 50K+ requests) and set up Jenkins CI/CD with canary deployments.
+
+---
+
+## Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### DuoSport
+**Court-booking & matchmaking platform**
+
+`Java` `Spring Boot` `PostgreSQL/PostGIS` `JWT` `Docker`
+
+- Spring Boot backend — **107 REST endpoints**, **31 entities**; prevented double-booking via JPA pessimistic locking.
+- **Sub-10ms** nearby-venue search with PostGIS over a **100k+ row** dataset.
+- Rotating SHA-256 refresh tokens, OAuth2, SSRF-guarded uploads (OWASP ASVS); **100+** unit & Testcontainers tests in CI.
+
+</td>
+<td width="50%" valign="top">
+
+### ROCm-Mobile
+**GPU ML for unsupported AMD mobile GPUs**
+
+`C` `Linux Kernel` `HIP` `JAX/XLA` `Triton`
+
+- Extends AMD's **ROCm** stack to unsupported **RDNA2** mobile GPUs (gfx1031) — kernel driver up to JAX/PyTorch backends.
+- Character device driver with an ioctl capability-inference engine + mobile-aware **TTM eviction** policy.
+- Kernel-level **GPU memory tiering** (VRAM + RAM) with layer-wise prefetch; gfx1031 **Flash Attention** kernel in JAX Pallas.
+
+</td>
+</tr>
+</table>
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=112Hunter112&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&icon_color=22d3ee&title_color=22d3ee" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=112Hunter112&layout=compact&hide_border=true&theme=tokyonight&langs_count=8&title_color=22d3ee" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=112Hunter112&hide_border=true&theme=tokyonight&ring=22D3EE&fire=FBBF24&currStreakLabel=22D3EE" alt="GitHub Streak" />
+</p>
+
+<!-- ============================================================
+   CONTRIBUTION SNAKE — appears after you add
+   .github/workflows/snake.yml  and run it once
+   (Actions tab -> "Generate Snake" -> Run workflow)
+============================================================ -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/112Hunter112/112Hunter112/output/snake.svg" alt="Contribution snake" width="100%" />
+</p>
+
+---
+
+<p align="center"><sub>Open to Software Engineering, Backend, and Distributed Systems internships.</sub></p>
